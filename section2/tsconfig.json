@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", /*변환되는 자바스크립트 버전 명시*/
+        "module": "ESNext", /*변환되는 자바스크립트 코드가 사용할 모듈 시스템 정의 옵션*/
+        "outDir": "dist", /*컴파일러 결과 생성되는 자바스립트 코드 위치 설정*/
+        "strict": true, /*엄격한 타입 검사*/
+        "moduleDetection": "force", /*자동으로 모든 ts파일 개별 모듈로 취급*/
+        "skipLibCheck": true,
+        // "strictNullChecks": false
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"] /*tsc가 어떤 경로안에 있는걸 컴파일 할 것인지 설정*/
+}
