@@ -73,5 +73,5 @@ type CountryNumberCodes = {
 };
 
 let countryNumberAndStringCodes: CountryNumberCodes = {
-    Korea: "ko",
+    Korea: 840,
 }
