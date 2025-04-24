@@ -36,4 +36,4 @@ let config: {
     apiKey: "MY API KEY",
 }
 
-config.apiKey = "hacked"; //Cannot assign to 'apiKey' because it is a read-only property. 
+// config.apiKey = "hacked"; //Cannot assign to 'apiKey' because it is a read-only property. 
