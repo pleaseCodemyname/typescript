@@ -89,4 +89,4 @@ func({
     price: 33000,
     // skill: "typescript", // 초과 프로퍼티 작동
 })
-func(programmingbook);
+func(programmingbook); // 변수에 저장해두었다가 인수로 변수 전달해야함 (서브타입 객체 사용)
