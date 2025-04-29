@@ -5,7 +5,7 @@ package.json
 # Build output
 dist/
 build/
-*.js
+# *.js
 !jest.config.js
 
 # TypeScript
