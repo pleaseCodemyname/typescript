@@ -6,6 +6,7 @@ package.json
 dist/
 build/
 # *.js
+prac.js
 !jest.config.js
 
 # TypeScript
