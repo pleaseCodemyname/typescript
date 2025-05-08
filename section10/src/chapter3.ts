@@ -34,7 +34,6 @@ type B = Extract<string | boolean, boolean>; // type B: boolean
  * 함수의 반환값 타입을 추출하는 타입
  */
 
-// ReturnA일때는 T = string, ReturnB일때는 T = number
 type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : never;
 
 function funcA() {
